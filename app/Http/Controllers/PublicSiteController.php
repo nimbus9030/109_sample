@@ -20,7 +20,7 @@ class PublicSiteController extends Controller
     {
         $tag_table = App\Tag::class;
         $tag = $tag_table::first()['url'];
-        return view('instagram2', ['tag' => $tag]);
+        return view('event', ['tag' => $tag]);
     }
 
     public function event()

@@ -489,7 +489,7 @@
                     
                     
                     
-                <li class="foot-menu-item mbr-fonts-style display-7">
+                <!-- <li class="foot-menu-item mbr-fonts-style display-7">
                         <a class="text-white mbr-bold" href="#" target="_blank">About us</a></li><li class="foot-menu-item mbr-fonts-style display-7">
                         <a class="text-white mbr-bold" href="#" target="_blank">Services</a>
                     </li><li class="foot-menu-item mbr-fonts-style display-7">
@@ -498,7 +498,8 @@
                         <a class="text-white mbr-bold" href="#" target="_blank">Careers</a>
                     </li><li class="foot-menu-item mbr-fonts-style display-7">
                         <a class="text-white mbr-bold" href="#" target="_blank">Work</a>
-                    </li></ul>
+                    </li>
+                </ul> -->
             </div>
             <div class="row">
                 <div class="social-list align-right pb-2">
@@ -558,7 +559,7 @@
         var tag = {!! json_encode($tag) !!};
 
   </script>
-  <script src="js/instagram.js"></script>
+  <script src="js/instagram.min.js"></script>
 
   
 </body>
